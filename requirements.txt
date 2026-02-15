@@ -1,0 +1,10 @@
+numpy
+pandas
+nibabel
+scikit-learn
+monai
+scipy
+matplotlib
+opencv-python
+batchgenerators
+nnunetv2

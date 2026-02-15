@@ -14,11 +14,11 @@ import pandas as pd
 
 if __name__ == "__main__":
 	# METADATA FILE
-	metadata_df = pd.read_csv("")
+	metadata_df = pd.read_csv("<PATH_TO_METADATA_CSV>")
 	# OUTPUT FOLDER
-	output_folder = 
+	output_folder = "<PATH_TO_OUTPUT_FOLDER>"
 	# FOLDER CONTAINS RAW DICOMS
-	src_folder = 
+	src_folder = "<PATH_TO_RAW_DICOMS>" 
 	options = """ -b n -z y -m y -f '%i_%g' """
 
 	for idx, row in metadata_df.iterrows():

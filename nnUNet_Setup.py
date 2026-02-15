@@ -9,15 +9,15 @@ import json
 
 if __name__ == '__main__':
 	# separate the training, validation and test data based on user's need
-	TRAIN_df =
-	VAL_df = 
-	TEST_df = 
+	TRAIN_df = pd.read_csv("<PATH_TO_TRAIN_METADATA_CSV>")
+	VAL_df = pd.read_csv("<PATH_TO_VAL_METADATA_CSV>")
+	TEST_df = pd.read_csv("<PATH_TO_TEST_METADATA_CSV>")
 	# nnUNet cross validation 
 	full_df = pd.concat([TRAIN_df, VAL_df])
 	# nifti file path
-    data_dir =
+    data_dir = "<PATH_TO_NIFTI_DATA>"
     # destination file path
-    dest_dir = 
+    dest_dir = "<PATH_TO_NNUNET_DEST>" 
 
     # raw_brats_data_dir = '../../data/BraTs'
     # convert_brats_data_dir = './BraTs_convert/'
