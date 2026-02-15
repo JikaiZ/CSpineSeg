@@ -32,11 +32,9 @@ If you use CSpineSeg or this code in your work, please cite:
 
 ## Example
 
-The repository includes an example from the CSpineSeg dataset in the `assets` folder:
+![CSpineSeg example](assets/example.png)
 
-![CSpineSeg example](assets/cspineseg_example.png)
-
-*This figure illustrates a CSpineSeg example of sagittal T2 MRI for the c-spine with expert annotations of vertebral bodies (red) and IVDs (green). A zoomed-in view was provided.*
+*This figure illustrates a CSpineSeg example of sagittal T2 MRI for the c-spine with expert annotations of vertebral bodies (red) and IVDs (green). A zoomed-in view is provided.*
 
 ## Dataset Acquisition
 
